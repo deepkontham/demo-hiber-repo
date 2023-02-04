@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.ciq.ems.entity.Teacher" table="teachers">
+		<id name="id" type="int" column="id">
+			<generator class="native" />
+		</id>
+		<property name="name" type="string" column="name" />
+		<property name="salary" type="double" column="salary" />
+		<property name="sclname" type="string" column="sclname" />
+
+	</class>
+</hibernate-mapping>
+
