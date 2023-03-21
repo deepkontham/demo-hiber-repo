@@ -1,0 +1,8 @@
+com\connection\ConnectionUtil.class
+com\dao\StudentDao.class
+com\dao\Studentdoaimplt.class
+com\model\Student.class
+com\getall\Allcontroller.class
+com\Query\Queries.class
+com\test\StudentTest.class
+com\getall\GetAllController.class

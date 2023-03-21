@@ -10,7 +10,7 @@ public class Unidirectionutil {
 	static {
 		Configuration con=new Configuration().configure("Manytomany.xml");
 		 sf = con.buildSessionFactory();
-		
+		 
 	}
 	public static Session getsSession() {
 		return sf.openSession();

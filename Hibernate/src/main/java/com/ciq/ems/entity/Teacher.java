@@ -1,4 +1,4 @@
-package com.ciq.ems.entity;
+ package com.ciq.ems.entity;
 
 public class Teacher {
 	

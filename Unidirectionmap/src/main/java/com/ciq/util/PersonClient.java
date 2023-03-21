@@ -9,6 +9,7 @@ import java.util.Date;
 import org.hibernate.Session;
 
 import com.unicone.Unidirectionutil;
+import com.unicone.Unidirectionutil2;
 
 public class PersonClient {
 	public static void main(String[] args) throws ParseException {
@@ -21,7 +22,7 @@ public class PersonClient {
 		Date date = s.parse("1995/03/17");
 
 		Person pr = new Person("pradeep", date, adr);
-		Session session=Unidirectionutil.getsSession();
+		Session session=Unidirectionutil2.getsSession();
 		session.beginTransaction();
 		session.save(pr);
 		session.getTransaction().commit();

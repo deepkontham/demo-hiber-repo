@@ -1,4 +1,4 @@
-package com.ciq.student;
+ package com.ciq.student;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
